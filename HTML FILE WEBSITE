@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Presentasi Informatika: IF-K12-03</title>
+    <style>
+        :root {
+            --primary-color: #0d47a1;
+            --secondary-color: #1976d2;
+            --accent-color: #ffb300;
+            --bg-color: #f5f7fa;
+            --text-color: #333333;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+        }
+
+        header h2 {
+            margin: 0;
+            font-size: 1.2rem;
+            font-weight: 400;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: -2rem auto 2rem;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-left: 5px solid var(--secondary-color);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 10px;
+        }
+
+        .card.conclusion {
+            border-left-color: var(--accent-color);
+            background-color: #fffdf5;
+        }
+
+        .card.conclusion h3 {
+            color: #d84315;
+            border-bottom-color: #ffecb3;
+        }
+
+        .section-item {
+            margin-bottom: 15px;
+        }
+
+        .label {
+            font-weight: bold;
+            color: var(--primary-color);
+            background-color: #e3f2fd;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
+        .conclusion .label {
+            color: #d84315;
+            background-color: #ffecb3;
+        }
+
+        p {
+            margin-top: 5px;
+            margin-bottom: 0;
+        }
+
+        .analogy {
+            background-color: #f1f8e9;
+            border-left: 4px solid #7cb342;
+            padding: 10px 15px;
+            border-radius: 0 4px 4px 0;
+            font-style: italic;
+            margin-top: 15px;
+        }
+
+        .flow-container {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            margin-top: 10px;
+        }
+
+        .flow {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-align: center;
+        }
+
+        .arrow {
+            color: var(--accent-color);
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            .card {
+                padding: 1.5rem;
+            }
+            .flow {
+                flex-direction: column;
+            }
+            .arrow {
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Materi Presentasi Informatika: IF-K12-03</h1>
+        <h2>Tema: Informatika Sekarang dan Masa Depan</h2>
+    </header>
+
+    <div class="container">
+        
+        <div class="card">
+            <h3>📌 MATERI 1: Revolusi Industri 4.0</h3>
+            
+            <div class="section-item">
+                <span class="label">Penjelasan</span>
+                <p>Revolusi Industri 4.0 adalah era transformasi di mana dunia nyata dan dunia digital disatukan melalui otomatisasi. Di era ini, berbagai mesin dan sistem bisa saling terhubung serta bekerja sendiri tanpa perlu campur tangan atau arahan manual dari manusia secara terus-menerus.</p>
+            </div>
+            
+            <div class="analogy">
+                <strong>Analogi Restoran:</strong> Ini adalah Sistem Restoran Modern secara Keseluruhan yang serba canggih dan otomatis.
+            </div>
+
+            <div class="section-item" style="margin-top: 15px;">
+                <span class="label">Poin Penting</span>
+                <p>Revolusi Industri 4.0 ini digerakkan oleh gabungan 4 teknologi utama: <strong>IoT, Big Data, Cloud Computing, dan AI.</strong></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>📌 MATERI 2: Internet of Things (IoT)</h3>
+            
+            <div class="section-item">
+                <span class="label">Penjelasan</span>
+                <p>IoT adalah jaringan perangkat fisik (seperti HP, sensor, kamera, hingga kendaraan) yang dilengkapi koneksi internet dan sensor. Tugas utamanya adalah mengumpulkan dan megirimkan data dari lingkungan dunia nyata secara otomatis.</p>
+            </div>
+            
+            <div class="analogy">
+                <strong>Analogi Restoran:</strong> Berperan sebagai Pelayan / Kurir Restoran (yang bertugas mencatat dan mengambil pesanan dari pelanggan di luar).
+            </div>
+
+            <div class="section-item" style="margin-top: 15px;">
+                <span class="label">Contoh Nyata</span>
+                <p>GPS pada smartphone, Smartwatch (merekam detak jantung/langkah), CCTV pintar di jalan raya, dan saklar rumah pintar (smart home).</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>📌 MATERI 3: Big Data</h3>
+            
+            <div class="section-item">
+                <span class="label">Penjelasan</span>
+                <p>Big Data adalah kumpulan data dalam jumlah yang sangat raksasa, masuk dengan sangat cepat (real-time), dan memiliki beragam bentuk (teks, foto, video, lokasi). Saking besarnya, data ini tidak bisa diolah oleh komputer atau aplikasi biasa.</p>
+            </div>
+            
+            <div class="analogy">
+                <strong>Analogi Restoran:</strong> Berperan sebagai Gudang Bahan Makanan (tempat menampung seluruh pesanan dan bahan dalam jumlah yang sangat banyak).
+            </div>
+
+            <div class="section-item" style="margin-top: 15px;">
+                <span class="label">Contoh Nyata</span>
+                <p>Miliaran riwayat pencarian Google, transaksi belanja online se-Indonesia, dan data lokasi seluruh pengguna Google Maps.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>📌 MATERI 4: Cloud Computing</h3>
+            
+            <div class="section-item">
+                <span class="label">Penjelasan</span>
+                <p>Cloud Computing (Komputasi Awan) adalah layanan penyimpanan dan pemrosesan data melalui jaringan internet. Dengan Cloud, kita tidak perlu membeli server fisik atau komputer super mahal; cukup menyewa ruang simpan dan daya komputasi yang ada di internet.</p>
+            </div>
+            
+            <div class="analogy">
+                <strong>Analogi Restoran:</strong> Berperan sebagai Dapur Server di Internet (tempat memasak dan menyimpan bahan yang luas, fleksibel, dan bisa diakses dari mana saja).
+            </div>
+
+            <div class="section-item" style="margin-top: 15px;">
+                <span class="label">Contoh Nyata</span>
+                <p>Google Drive, Google Docs (bisa edit tugas barengan), iCloud, dan server Spotify/Netflix.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>📌 MATERI 5: Artificial Intelligence (AI)</h3>
+            
+            <div class="section-item">
+                <span class="label">Penjelasan</span>
+                <p>AI (Kecerdasan Buatan) adalah teknologi yang memungkinkan sistem komputer untuk meniru cara berpikir manusia. AI bertugas menganalisis data, mengenali pola, dan mengambil keputusan atau memberikan rekomendasi secara cerdas dan otomatis.</p>
+            </div>
+            
+            <div class="analogy">
+                <strong>Analogi Restoran:</strong> Berperan sebagai Koki Cerdas (yang mengolah bahan-bahan di dapur menjadi hidangan yang pas sesuai selera pelanggan).
+            </div>
+
+            <div class="section-item" style="margin-top: 15px;">
+                <span class="label">Contoh Nyata</span>
+                <p>Algoritma rekomendasi lagu di Spotify / FYP TikTok, fitur pendeteksi wajah di HP, dan AI di Google Maps yang menentukan rute tercepat.</p>
+            </div>
+        </div>
+
+        <div class="card conclusion">
+            <h3>🔄 KESIMPULAN & CONTOH GABUNGAN</h3>
+            
+            <div class="section-item">
+                <span class="label">Saling Keterkaitan</span>
+                <p>Keempat teknologi utama di era Revolusi Industri 4.0 ini saling melengkapi satu sama lain dalam sebuah alur yang otomatis:</p>
+                
+                <div class="flow-container">
+                    <div class="flow">
+                        <span>IoT mengambil data</span>
+                        <span class="arrow">➔</span>
+                        <span>Terkumpul menjadi Big Data</span>
+                        <span class="arrow">➔</span>
+                        <span>Disimpan di Cloud Computing</span>
+                        <span class="arrow">➔</span>
+                        <span>Diolah oleh AI</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-item" style="margin-top: 20px;">
+                <span class="label">Contoh Nyata (Google Maps)</span>
+                <p>Sensor HP kita (<strong>IoT</strong>) kirim lokasi ke server (<strong>Cloud</strong>). Kumpulan lokasi jutaan orang (<strong>Big Data</strong>) lalu dianalisis oleh sistem cerdas (<strong>AI</strong>) untuk mendeteksi kemacetan dan mencarikan jalan pintas terbaik.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+nitip
